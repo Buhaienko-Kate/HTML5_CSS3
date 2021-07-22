@@ -2,7 +2,7 @@
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
-  line-height: 50%;
+
   position: fixed;
 }
 .navigation {
@@ -14,6 +14,8 @@
   margin-left: 16px;
   color: white;
   list-style: none;
+  height: 40px;
+  line-height: 50%;
 }
 .content {
   background-color: beige;
@@ -25,7 +27,7 @@
   background-color: aquamarine;
   position: relative;
   top: calc(50vh - 200px / 2);
-  left: calc(50vh - 200px / 2);
+  left: calc(50vw - 200px / 2);
 }
 .ear_right {
   width: 40px;
