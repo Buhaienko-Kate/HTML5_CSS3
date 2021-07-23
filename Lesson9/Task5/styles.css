@@ -8,10 +8,10 @@
   position: fixed;
   z-index: 1;
 }
-
-.navigation {
+.nav-list {
   height: 40px;
-  line-height: 10px;
+  line-height: 40px;
+  margin: 0px;
 }
 .nav-item {
   float: left;
