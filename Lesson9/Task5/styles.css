@@ -11,14 +11,13 @@
 
 .navigation {
   height: 40px;
+  line-height: 10px;
 }
 .nav-item {
   float: left;
   margin-left: 16px;
   color: white;
   list-style: none;
-  height: 40px;
-  line-height: 50%;
 }
 .content {
   background-color: beige;
