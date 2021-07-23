@@ -9,11 +9,10 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
+  width: 300px;
+  flex-grow: 1;
 }
 .articles-list {
   display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
   flex-wrap: wrap;
-  flex-basis: 300px;
 }
