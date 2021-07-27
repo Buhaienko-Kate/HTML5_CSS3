@@ -22,7 +22,6 @@ body {
   text-transform: uppercase;
 }
 .form-input {
-  margin-bottom: 8px;
   width: 100%;
   height: 32px;
   border-radius: 4px;
@@ -45,4 +44,7 @@ input:invalid {
   text-transform: uppercase;
   color: white;
   border-radius: 4px;
+}
+.form-control {
+  margin-top: 8px;
 }
