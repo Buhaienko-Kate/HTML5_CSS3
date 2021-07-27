@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <input type="text" id="label_for_lastName" name="lastName" value="Emerson" readonly />
+        <label for="label_for_lastName">lastName</label>
+      </div>
+
+      <div>
+        <input type="number" id="label_for_age" name="age" value="17" min="3" max="10" />
+        <label for="label_for_age">age</label>
+      </div>
+      <div>
+        <input type="checkbox" id="label_for_checkbox" name="agree" disabled />
+        <label for="label_for_checkbox"> Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" id="gender-male" name="gender" checked />
+        <label for="gender-male">Male</label>
+        <input type="radio" id="gender-female" name="gender" />
+        <label for="gender-female">Female</label>
+        <input type="radio" id="gender-secret" name="gender" />
+        <label for="gender-secret">Secret</label>
+      </div>
+      <div>
+        <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
