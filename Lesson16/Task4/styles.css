@@ -3,15 +3,17 @@
 }
 body {
   background-color: bisque;
-  font-size: 16px;
-  font-family: monospace;
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+}
+.page {
+  display: flex;
+  margin: auto;
 }
 .login-form {
   background-color: aqua;
+  font-size: 16px;
+  font-family: monospace;
   display: inline-block;
   width: 300px;
   padding: 16px;
@@ -30,10 +32,9 @@ body {
   outline: none;
 }
 .form-label {
-  display: inline-block;
   margin-bottom: 4px;
 }
-input:invalid {
+.form-input:invalid {
   border: 3px solid #ff0000;
 }
 .submit-button {
@@ -46,5 +47,7 @@ input:invalid {
   border-radius: 4px;
 }
 .form-control {
+  display: flex;
+  flex-direction: column;
   margin-top: 8px;
 }
