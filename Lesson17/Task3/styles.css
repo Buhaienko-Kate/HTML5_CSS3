@@ -22,7 +22,8 @@ tr.whiteList > td.white {
   background-color: white;
   border: none;
 }
-#white_color {
+
+tr.white_square > td.white_color {
   background-color: white;
   border: none;
 }
