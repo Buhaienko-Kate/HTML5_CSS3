@@ -20,22 +20,24 @@ body {
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
+  text-align: center;
 }
 .main {
   display: flex;
-  font-size: 1.25em;
+
   flex-grow: 1;
 }
 .navigation {
-  padding: 00.5em;
+  padding: 0.5em;
   width: 20%;
 }
 .section {
-  padding: 00.5em;
+  padding: 0.5em;
   width: 60%;
+  font-size: 1.25em;
 }
 .news {
-  padding: 00.5em;
+  padding: 0.5em;
   width: 20%;
 }
 .units-list {
