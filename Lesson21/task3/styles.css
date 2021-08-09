@@ -66,9 +66,9 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 100%;
+  padding: 0 0.5em;
 }
 .nav-list-link {
-  padding: 0 0.5em;
   color: white;
   text-decoration: none;
 }
