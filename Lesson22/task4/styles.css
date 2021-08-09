@@ -33,7 +33,7 @@ button {
 .nav-list-item {
   display: block;
   background-color: #808080;
-  line-height: 2em;
+  height: 2em;
   margin-bottom: 0.5em;
 }
 .nav-list-link {
