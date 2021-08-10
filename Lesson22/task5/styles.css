@@ -35,7 +35,7 @@ body {
   padding: 0.5em;
   width: 100%;
   font-size: 1.25em;
-  flex-grow: 1;
+  flex: 1;
 }
 .news {
   padding: 0.5em;
@@ -92,16 +92,10 @@ img {
     display: flex;
     flex-direction: row;
   }
-  .navigation {
-    width: 20%;
-  }
   .section {
     width: 60%;
   }
   .news {
     width: 20%;
-  }
-  .navigation_section {
-    width: 80%;
   }
 }
