@@ -2,19 +2,16 @@
   background-color: #ff7f50;
   height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 .product-list {
   background-color: #006400;
   height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 .news {
   background-color: #0ff;
   height: 200px;
   display: flex;
-  flex-grow: 2;
 }
 span {
   font-family: Verdana;
@@ -27,11 +24,22 @@ span {
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 3;
+  }
+  .navigation {
+    width: 50%;
+  }
+  .product-list {
+    width: 50%;
   }
 }
 @media screen and (min-width: 900px) {
   .main_container {
     display: flex;
+  }
+  .products {
+    flex: 2;
+  }
+  .news {
+    flex: 1;
   }
 }
